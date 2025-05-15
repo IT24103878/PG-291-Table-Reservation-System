@@ -4,6 +4,7 @@ import ReservationsView from "./components/reservation/ReservationsView";
 import FoodView from "./components/food/FoodView";
 import TablesView from "./components/table/TablesView";
 import WaitersView from "./components/waiter/WaitersView";
+import CustomersView from "./components/customer/CustomersView";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/foods" element={<FoodView />} />
           <Route path="/tables" element={<TablesView />} />
           <Route path="/waiters" element={<WaitersView />} />
+          <Route path="/" element={<CustomersView />} />
         </Routes>
       </main>
     </div>

@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import ReservationRequestsView from "./components/reservation-request/ReservationRequestsView";
 import ReservationsView from "./components/reservation/ReservationsView";
+import FoodView from "./components/food/FoodView";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
             element={<ReservationRequestsView />}
           />{" "}
           <Route path="/reservations" element={<ReservationsView />} />
+           <Route path="/foods" element={<FoodView />} />
         </Routes>
       </main>
     </div>

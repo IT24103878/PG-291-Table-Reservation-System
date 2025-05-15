@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/shared/Navbar";
 import ReservationRequestsView from "./components/reservation-request/ReservationRequestsView";
 import ReservationsView from "./components/reservation/ReservationsView";
 import FoodView from "./components/food/FoodView";

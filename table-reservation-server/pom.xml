@@ -8,11 +8,11 @@
 		<version>3.4.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.pg231</groupId>
+	<groupId>com.pg291</groupId>
 	<artifactId>table-reservation-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>table-reservation-server</name>
-	<description>PGNO - 231: Restaurant Table Reservation Platform</description>
+	<description>PGNO - 291: Restaurant Table Reservation Platform</description>
 	<url/>
 	<licenses>
 		<license/>
